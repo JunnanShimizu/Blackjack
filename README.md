@@ -1,7 +1,7 @@
 # Blackjack
-Blackjack implementation in Java for CS231: Data Structures and Algorithms.
+Blackjack Game implementation in Java.
 
-To run in terminal:
+To play the computer, run in terminal:
 
 git clone https://github.com/JunnanShimizu/Blackjack/
 
@@ -11,3 +11,4 @@ javac Play.java
 
 java Play.java
 
+// Note: To run a simulation of 1000 Blackjack games for statistical purposes, run: java Simulation.java
