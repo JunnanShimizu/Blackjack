@@ -11,6 +11,7 @@
  */
 
 import java.util.Scanner;
+import java.lang.Thread;
 
 public class Play {
     public static void main(String[] args){
@@ -35,9 +36,9 @@ public class Play {
 
         //tests the input and executes the choice
         while(running) {
-            if(input.toLowerCase().equals("stand"))
+            if(input.toLowerCase().equals("stand")){
                 break;
-
+            }
             if(input.toLowerCase().equals("hit")) {
                 game.playerDraw();
                 if(game.getPlayerHand().getTotalValue() > 21) {
@@ -54,23 +55,30 @@ public class Play {
 
         //dealer AI
         while(running){
-            System.out.println("Dealer's " + game.getDealerHand().toString());
+            System.out.println("The Dealer's " + game.getDealerHand().toString());
+            try{Thread.sleep(1500);}catch(InterruptedException e){System.out.println(e);}
             if (game.getDealerHand().getTotalValue() <= 18) {
-                System.out.println("Dealer decides to hit");
+                System.out.println("The Dealer decides to hit");
+                try{Thread.sleep(1500);}catch(InterruptedException e){System.out.println(e);}
                 game.dealerDraw();
                 if(game.getDealerHand().getTotalValue() > 21){
-                    System.out.println("Dealer's " + game.getDealerHand().toString());
+                    System.out.println("The Dealer's " + game.getDealerHand().toString());
+                    try{Thread.sleep(1000);}catch(InterruptedException e){System.out.println(e);}
                     System.out.println("The Dealer LOSES, You WIN!");
+                    try{Thread.sleep(1000);}catch(InterruptedException e){System.out.println(e);}
                     System.exit(0);
                 }
             } else {
-                System.out.println("Dealer decides to stand");
+                System.out.println("The Dealer decides to stand");
+                try{Thread.sleep(1000);}catch(InterruptedException e){System.out.println(e);}
                 if(21 - game.getDealerHand().getTotalValue() < 21 - game.getPlayerHand().getTotalValue()){
-                    System.out.println("Dealer Wins!");
+                    System.out.println("The Dealer Wins!");
+                    try{Thread.sleep(1000);}catch(InterruptedException e){System.out.println(e);}
                     System.exit(0);
                 }
                 else{
                     System.out.println("You Win!");
+                    try{Thread.sleep(1000);}catch(InterruptedException e){System.out.println(e);}
                     System.exit(0);
                 }
             }
