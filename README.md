@@ -1,5 +1,5 @@
 # Blackjack
-Blackjack Game implementation in Java.
+Blackjack Game implementation in the terminal.
 
 Examples:
 
