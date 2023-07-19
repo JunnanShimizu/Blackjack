@@ -1,7 +1,7 @@
 # Blackjack
 Blackjack Game implementation in Java.
 
-![](https://www.dropbox.com/scl/fi/9a5dk20qhi77e954nu49n/Blackjack_Dealer_Win.png?rlkey=s02o339djnnb8zxppqy7pzo17&dl=0)
+![](Blackjack_Dealer_Win.png)
 
 To play the computer, run in terminal:
 
