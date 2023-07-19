@@ -5,6 +5,7 @@ Examples:
 
 ![](Blackjack_Player_Win.png)
 ![](Blackjack_Dealer_Win.png)
+![](Blackjack_sim.png)
 
 To play the computer, run in terminal:
 
