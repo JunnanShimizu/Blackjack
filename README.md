@@ -14,5 +14,5 @@ javac Play.java
 ```
 ```
 java Play.java
-``'
+```
 > // Note: To run a simulation of 1000 Blackjack games for statistical purposes, run: java Simulation.java
