@@ -15,7 +15,7 @@ git clone https://github.com/JunnanShimizu/Blackjack.git
 cd Blackjack
 ```
 ```
-javac Play.java
+javac
 ```
 ```
 java Play.java
