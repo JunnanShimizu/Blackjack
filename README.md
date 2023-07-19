@@ -2,6 +2,7 @@
 Blackjack Game implementation in Java.
 
 Examples:
+
 ![](Blackjack_Player_Win.png)
 ![](Blackjack_Dealer_Win.png)
 
