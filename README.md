@@ -28,5 +28,7 @@ javac Simulation.java
 java Simulation.java
 ```
 
+Simulation example:
+
 ![](Blackjack_sim.png)
 
