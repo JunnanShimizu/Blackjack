@@ -5,7 +5,6 @@ Examples:
 
 ![](Blackjack_Player_Win.png)
 ![](Blackjack_Dealer_Win.png)
-![](Blackjack_sim.png)
 
 To play the computer, run in terminal:
 
@@ -28,3 +27,6 @@ javac Simulation.java
 ```
 java Simulation.java
 ```
+
+![](Blackjack_sim.png)
+
