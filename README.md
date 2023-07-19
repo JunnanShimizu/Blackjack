@@ -5,7 +5,7 @@ Blackjack Game implementation in Java.
 To play the computer, run in terminal:
 
 ```
-git clone [https://github.com/JunnanShimizu/Blackjack/](https://github.com/JunnanShimizu/Blackjack.git)
+git clone https://github.com/JunnanShimizu/Blackjack.git
 ```
 ```
 cd Blackjack
