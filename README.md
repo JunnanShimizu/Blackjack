@@ -22,6 +22,8 @@ Play examples:
 ![](Blackjack_Player_Win.png)
 ![](Blackjack_Dealer_Win.png)
 
+&nbsp;
+
 To run a simulation of 1000 Blackjack games for statistical purposes, in the same directory as above (Blackjack), run in terminal:
 ```
 javac Simulation.java
