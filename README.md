@@ -1,6 +1,7 @@
 # Blackjack
 #### Blackjack Game implementation in the terminal.
-<br/><br/>
+&nbsp;
+
 To play the computer, run in terminal:
 
 ```
